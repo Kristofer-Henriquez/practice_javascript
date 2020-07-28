@@ -46,14 +46,19 @@ console.log(cityPopulations);
 
 // Write a method that prints out every number from 1 to 100. 
 
-var number = 1;
-while (number < 101) {
-  console.log(number);
-  number ++;
-}
+// var number = 1;
+// while (number < 101) {
+//   console.log(number);
+//   number ++;
+// }
 
 // Write a method that prints out every other number from 1 to 100. (That is, 1, 3, 5, 7 … 99).
 
+var number = 1;
+while (number < 101) {
+  console.log(number);
+  number += 2;
+}
 
 // Write a method that accepts an array of numbers as a parameter, and counts how many 55’s there are in the array.
 

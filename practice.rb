@@ -56,6 +56,12 @@ end
 
 # Write a method that prints out every other number from 1 to 100. (That is, 1, 3, 5, 7 … 99).
 
+number = 1
+
+while number < 101
+  p number
+  number += 2
+end
 
 # Write a method that accepts an array of numbers as a parameter, and counts how many 55’s there are in the array.
 
