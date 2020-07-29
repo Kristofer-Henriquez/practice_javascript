@@ -57,3 +57,14 @@ function Factorial(number) {
 //   the "reverse" method built into Ruby.
 
 
+function Descending(numbers) {
+  var result = [];
+  var index = numbers.length - 1;
+  for (var i = 0; i < numbers.length; i++) {
+    result.push(numbers[index]);
+    index = index - 1;
+  }
+  return result;
+}
+
+// console.log(Descending([1, 3, 5, 7]));
