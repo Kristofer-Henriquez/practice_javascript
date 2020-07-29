@@ -26,7 +26,7 @@ function Max(numbers) {
   var CurrentMax = numbers[0];
   numbers.forEach(function(number) {
     if (number > CurrentMax) {
-      CurrentMax === number;
+      CurrentMax = number;
     }
   });
   return CurrentMax;
@@ -49,6 +49,11 @@ function Factorial(number) {
   return result;
 }
 
-console.log(Factorial(5));
+// console.log(Factorial(5));
+
+
+// # Write a method that accepts one argument - an array of numbers that are in ascending order. The method
+//  that returns a new array with the same values in descending order. However, do not use
+//   the "reverse" method built into Ruby.
 
 
