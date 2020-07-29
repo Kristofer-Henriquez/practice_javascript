@@ -67,7 +67,7 @@ function ArrayCount(numbers) {
   var count = 0;
   numbers.forEach(function(number) {
     if (number === 55) {
-      count ++}
+      count ++};
   });
   return count;
 }
